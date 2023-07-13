@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/bendera.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Indonesian Food</title>
+</head>
+<body>
+    <!-- script javascript -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- header -->
+    <header>
+        <p class="logo">Local Foods</p>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- home start -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1><b>Indonesian Food</b></h1>
+            <h3>Local Food is the <br> Most Authentic Culinary </h3>
+            <a href="#about-us" class="btn">About Local Foods</a>
+        </div>
+
+        <div class="home-image">
+            <img src="images/header-angkringan.png" alt="Header: Angkringan">
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section class="about-us" id="about-us">
+        <div class="about-us-text">
+            <h1>About Us</h1>
+            <br>
+            <p class="about-us-paragraph"><i>Welcome to our flavorful world of Indonesian cuisine! 
+                At Local Food, we are passionate about sharing the rich culinary heritage of Indonesia with the world. With a blend of diverse influences from across the archipelago, 
+                Indonesian food is a delightful tapestry of flavors, textures, and aromas that will transport you to the vibrant streets and bustling markets of our beloved country.</i></p>
+        </div>
+    </section>
+
+    <!-- best seller -->
+    <section class="best-seller" id="best-seller">
+        <div class="best-seller-headings">
+            <p><b>Best Seller</b></p>
+            <h2>Try these delicious food from The Local's</h2>
+        </div>
+
+        <div class="best-seller-container">
+            <div class="best-seller-box">
+                <div class="box-image">
+                    <img src="images/nasi-uduk.png" class="img" alt="Nasi Uduk" onmouseover="increase()">
+                </div>
+                <h3>Nasi Uduk</h3>
+                <p>Rp45.000,00</p>
+            </div>
+
+            <div class="best-seller-box">
+                <div class="box-image">
+                    <img src="images/nasi-goreng.png" class="img" alt="Nasi Goreng" onmouseover="increase()">
+                </div>
+                <h3>Nasi Goreng</h3>
+                <p>Rp40.000,00</p>
+                <!-- <a href='https://pngtree.com/so/nasi'>nasi png from pngtree.com/</a> -->
+            </div>
+
+            <div class="best-seller-box">
+                <div class="box-image">
+                    <img src="images/bakso.png" class="img" alt="Bakso" onmouseover="increase()">
+                </div>
+                <h3>Bakso Malang</h3>
+                <p>Rp35.000,00</p>
+            </div>
+        </div>
+        
+        <div class="best-seller-button">
+            <a href="#" class="btn">Check Menu</a>
+        </div>
+    </section>
+
+    <!-- https://kotakode.com/blogs/11359/Back-to-Basic%3A-Pilih-Flexbox-atau-Grid%3F -> sumber buat bahas grid dan flexbox -->
+
+    <!-- service section -->
+    <section class="service" id="service">
+        <div class="service-headings">
+            <p><b>Local's Services</b></p>
+            <h2>Get all the finest service only on Local Foods</h2>
+        </div>
+
+        <div class="service-container">
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class='bx bxs-bowl-rice'></i>
+                </div>
+                <p>We prepare the best ingredients to give the best taste of Indonesian food</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class='bx bxs-user-voice'></i>
+                </div>
+                <p>We will always give you the best service both offline and online customers</p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class='bx bxs-car'></i>
+                </div>
+                <p>We provide delivery for online orders as fast as we can with our food warmer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- quotes section -->
+    <section class="quotes" id="quotes">
+        <div class="quotes-headings">
+            <p>"The Indonesian food review praised the aromatic blend of spices in the traditional rendang, noting its tender texture and rich, savory flavor that left the taste buds longing for more."
+            </p>
+            <h3>Sarah Natalia, Food Vlogger, 25 y.o</h3>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="contact" id="contact">
+        <div class="footer">
+            <div class="main-container">
+                <div class="col-box">
+                    <h4>Menu Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-box">
+                    <h4>Our Service</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Product Management</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-box">
+                    <h4>Contact Us</h4>
+                    <div class="social">
+                        <i class='bx bxl-facebook'></i>
+                        <i class='bx bxl-instagram' ></i>
+                        <i class='bx bxl-twitter'></i>
+                        <i class='bx bxl-youtube' ></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
